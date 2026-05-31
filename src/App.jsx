@@ -183,21 +183,20 @@ const INITIAL_POSTS = [
   }
 ];
 
-// AUTHORS ARRAY BOUND TO ROOT FILE DIRECTIONS WITH LEADING SLASHES
-<img src={author.img} alt={author.name} />
+const AUTHORS = [
   {
     id: "1",
     name: "Taha Bajwa",
     roles: ["STUDENT", "RESEARCHER", "WRITER"],
     bio: "Interested in philosophy, technology, and the complex places where they overlap. Writes to think things through.",
-    img: "/the-student-workspace/public/taha.jpeg"
+    img: "taha.jpeg"
   },
   {
     id: "2",
     name: "Khadijah Farooq",
     roles: ["STUDENT", "ESSAYIST", "CURATOR"],
     bio: "Reads a lot. Writes about history, language, and why things are the way they are.",
-    img: "/the-student-workspace/public/khadijah.jpeg"
+    img: "khadijah.jpeg"
   }
 ];
 
