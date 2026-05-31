@@ -187,14 +187,14 @@ const INITIAL_POSTS = [
 <img src={author.img} alt={author.name} />
   {
     id: "1",
-    name; "Taha Bajwa",
+    name: "Taha Bajwa",
     roles: ["STUDENT", "RESEARCHER", "WRITER"],
     bio: "Interested in philosophy, technology, and the complex places where they overlap. Writes to think things through.",
     img: "/the-student-workspace/public/taha.jpeg"
   },
   {
     id: "2",
-    name; "Khadijah Farooq",
+    name: "Khadijah Farooq",
     roles: ["STUDENT", "ESSAYIST", "CURATOR"],
     bio: "Reads a lot. Writes about history, language, and why things are the way they are.",
     img: "/the-student-workspace/public/khadijah.jpeg"
