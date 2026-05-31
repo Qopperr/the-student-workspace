@@ -184,7 +184,7 @@ const INITIAL_POSTS = [
 ];
 
 // AUTHORS ARRAY BOUND TO ROOT FILE DIRECTIONS WITH LEADING SLASHES
-const AUTHORS = [
+<img src={author.img} alt={author.name} />
   {
     id: "1",
     name: "Taha Bajwa",
