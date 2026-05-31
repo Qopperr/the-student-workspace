@@ -183,24 +183,7 @@ const INITIAL_POSTS = [
   }
 ];
 
-const AUTHORS = [
-  {
-    id: "1",
-    name: "Taha Bajwa",
-    roles: ["STUDENT", "RESEARCHER", "WRITER"],
-    bio: "Interested in philosophy, technology, and the complex places where they overlap. Writes to think things through.",
-    img: "taha.jpeg"
-  },
-  {
-    id: "2",
-    name: "Khadijah Farooq",
-    roles: ["STUDENT", "ESSAYIST", "CURATOR"],
-    bio: "Reads a lot. Writes about history, language, and why things are the way they are.",
-    img: "khadijah.jpeg"
-  }
-];
 
-export { AUTHORS };
 
 function FloatingFilterButton({ label, count, isSelected, onClick, disabled }) {
   const buttonRef = useRef(null);
@@ -723,3 +706,22 @@ export default function App() {
     </div>
   );
 }
+
+const AUTHORS = [
+  {
+    id: "1",
+    name: "Taha Bajwa",
+    roles: ["STUDENT", "RESEARCHER", "WRITER"],
+    bio: "Interested in philosophy, technology, and the complex places where they overlap. Writes to think things through.",
+    img: "taha.jpeg"
+  },
+  {
+    id: "2",
+    name: "Khadijah Farooq",
+    roles: ["STUDENT", "ESSAYIST", "CURATOR"],
+    bio: "Reads a lot. Writes about history, language, and why things are the way they are.",
+    img: "khadijah.jpeg"
+  }
+];
+
+export { AUTHORS };
