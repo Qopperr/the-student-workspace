@@ -190,14 +190,14 @@ const AUTHORS = [
     name: "Taha Bajwa",
     roles: ["STUDENT", "RESEARCHER", "WRITER"],
     bio: "Interested in philosophy, technology, and the complex places where they overlap. Writes to think things through.",
-    imgUrl: "/WhatsApp Image 2026-05-31 at 16.17.55 (1).jpeg" 
+    img: "/the-student-workspace/taha.jpeg"
   },
   {
     id: "2",
     name: "Khadijah Farooq",
     roles: ["STUDENT", "ESSAYIST", "CURATOR"],
     bio: "Reads a lot. Writes about history, language, and why things are the way they are.",
-    imgUrl: "/WhatsApp Image 2026-05-31 at 16.17.55.jpeg" 
+    img: "/the-student-workspace/khadijah.jpeg"
   }
 ];
 
