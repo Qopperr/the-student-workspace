@@ -190,14 +190,14 @@ const INITIAL_POSTS = [
     name: "Taha Bajwa",
     roles: ["STUDENT", "RESEARCHER", "WRITER"],
     bio: "Interested in philosophy, technology, and the complex places where they overlap. Writes to think things through.",
-    img: "/the-student-workspace/taha.jpeg"
+    img: "/the-student-workspace/public/taha.jpeg"
   },
   {
     id: "2",
     name: "Khadijah Farooq",
     roles: ["STUDENT", "ESSAYIST", "CURATOR"],
     bio: "Reads a lot. Writes about history, language, and why things are the way they are.",
-    img: "/the-student-workspace/khadijah.jpeg"
+    img: "/the-student-workspace/public/khadijah.jpeg"
   }
 ];
 
