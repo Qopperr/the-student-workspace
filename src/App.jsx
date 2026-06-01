@@ -433,7 +433,7 @@ export default function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center border-b border-gray-200/60 pb-16">
               <div className="relative group bg-[#f0ede6] overflow-hidden rounded-sm aspect-[4/5] max-w-sm mx-auto w-full shadow-md">
                 <img 
-                  src={AUTHORS[currentAuthorIdx].imgUrl} 
+                  src={`${import.meta.env.BASE_URL}${AUTHORS[currentAuthorIdx].img}`} 
                   alt={AUTHORS[currentAuthorIdx].name} 
                   className="w-full h-full object-cover grayscale tracking-wide transition-all duration-700 ease-in-out group-hover:grayscale-0 group-hover:scale-105"
                 />
@@ -705,7 +705,7 @@ export default function App() {
 
     </div>
   );
-}
+  }
 
 const AUTHORS = [
   {
