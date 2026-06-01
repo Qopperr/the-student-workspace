@@ -169,7 +169,7 @@ const INITIAL_POSTS = [
       { type: "paragraph", text: "The telescope did not simply show a pre-existing reality; it created a radically new set of conditions under which truth could be processed. This exposes the foundational paradox of all empirical science: we like to imagine our instruments are perfectly transparent windows looking out onto an objective world, but in reality, every lens, sensor, and detector actively filters, shapes, and constrains the boundaries of what we are allowed to discover." },
       { type: "heading", text: "Robert Hooke and the Manufactured Image" },
       { type: "paragraph", text: "A generation later, Robert Hooke's monumental *Micrographia* (1665) pulled back the veil on the microscopic universe, revealing the terrifying, geometric architecture of a flea's eye and the cellular texture of cork. Yet, Hooke was intensely candid about the limitations of his optical equipment. He openly admitted that the act of illumination changed the specimen itself." },
-      { type: "paragraph", text: "To make a microscopic object visible, one must blast it with highly focused, concentrated beams of light. This light treats the specimen, alters its color, and can induce structural warp. The image that eventually gets drawn onto the copper engraving plate is not a direct snapshot of nature in its native state; it is an interpretation—a negotiated compromise between the physical characteristics of the specimen and the disruptive energy of the observer's light." },
+      { type: "paragraph", text: "To make a microscopic object visible, one must blast it with highly focused, concentrated beams of light. This light heats the specimen, alters its color, and can induce structural warp. The image that eventually gets drawn onto the copper engraving plate is not a direct snapshot of nature in its native state; it is an interpretation—a negotiated compromise between the physical characteristics of the specimen and the disruptive energy of the observer's light." },
       { type: "heading", text: "The Modern Quantum Negotiating Table" },
       { type: "paragraph", text: "As science advanced into subatomic and advanced biological domains, this boundary between the observer and the observed hardened from an engineering obstacle into an absolute law of nature:" },
       { type: "list", items: [
@@ -691,9 +691,7 @@ export default function App() {
           </div>
           <div>
             <h4 className="font-bold text-[10px] tracking-[0.2em] text-gray-400 uppercase mb-3">CONNECT</h4>
-            <p className="font-light leading-relaxed text-gray-400 text-xs">
-              For inquiries, collaborations, or academic discourse — reach out via the <span onClick={() => navigateTo('about')} className="underline text-[#1a1a1a] cursor-pointer hover:text-orange-700">contact form</span>.
-            </p>
+            <p className="font-light leading-relaxed text-gray-400 text-xs\">\n              For inquiries, collaborations, or academic discourse — reach out via the <span onClick={() => navigateTo('about')} className="underline text-[#1a1a1a] cursor-pointer hover:text-orange-700">contact form</span>.\n            </p>
           </div>
         </div>
         <div className="max-w-6xl mx-auto px-6 md:px-12 mt-12 pt-6 border-t border-gray-200/30 text-[9px] font-bold tracking-[0.2em] text-gray-400 uppercase">
