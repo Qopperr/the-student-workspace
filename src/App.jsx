@@ -183,8 +183,6 @@ const INITIAL_POSTS = [
   }
 ];
 
-
-
 function FloatingFilterButton({ label, count, isSelected, onClick, disabled }) {
   const buttonRef = useRef(null);
   const [transformStyle, setTransformStyle] = useState({ transform: 'translate(0px, 0px) scale(1)', zIndex: 1 });
@@ -373,8 +371,8 @@ export default function App() {
 
         {currentPage === 'archive' && (
           <div className="max-w-4xl mx-auto px-6 md:px-12 pt-16 pb-24">
-            <span className="text-[10px] font-bold tracking-[0.3em] text-gray-400 uppercase block mb-2">TAXONOMY</span>
-            <h1 className="text-4xl md:text-5xl font-normal tracking-tight mb-8" style={{ fontFamily: 'Georgia, serif' }}>The Archive</h1>
+            <span className="text-[10px] font-bold tracking-[0.3em] text-[#1a1a1a] uppercase block mb-2">TAXONOMY</span>
+            <h1 className="text-4xl md:text-5xl font-normal tracking-tight mb-8 text-slate-800" style={{ fontFamily: 'Georgia, serif' }}>The Archive</h1>
             
             <div className="mb-12">
               <span className="text-[10px] font-bold tracking-[0.15em] text-gray-400 uppercase block mb-3">TOPICS BY VOLUME</span>
@@ -705,7 +703,7 @@ export default function App() {
 
     </div>
   );
-  }
+}
 
 const AUTHORS = [
   {
